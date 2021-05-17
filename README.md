@@ -18,3 +18,5 @@ Learning how to build Enterprise NodeJS applications using NestJS
   + url path에 포함된 정보는 **@Param('정보명')** 애노테이션을 통해 받을 수 있음
   + HTTP Body에 포함된 정보는 **@Body** 애노테이션을 통해 받을 수 있음
   + query param으로 전달되는 정보는 **@Query('정보명')** 애노테이션을 통해 받을 수 있음
+- service
+  + 'nest g s 서비스이름' 명령어를 사용하여 service 생성
