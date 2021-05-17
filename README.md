@@ -15,4 +15,6 @@ Learning how to build Enterprise NodeJS applications using NestJS
     - @Post: create
     - @Delete: delete
     - @Patch: update, @Put은 전체 @Patch는 부분 업데이트
-  + url에 전달된 정보는 @Param 애노테이션을 통해 받을 수 있음
+  + url path에 포함된 정보는 @Param('정보명') 애노테이션을 통해 받을 수 있음
+  + HTTP Body에 포함된 정보는 @Body 애노테이션을 통해 받을 수 있음
+  + query param으로 전달되는 정보는 @Query('정보명') 애노테이션을 통해 받을 수 있음
