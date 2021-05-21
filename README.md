@@ -23,4 +23,7 @@ Learning how to build Enterprise NodeJS applications using NestJS
   + 'nest g s 서비스이름' 명령어를 사용하여 service 생성
   + controller에서 service를 요청할 때는 생성자 메소드의 파라미터로 요청
     - ex) constructor(private readonly moviesService: MoviesService)
+  + nest에서 제공하는 예외처리
+    - throw NotFoundException();
+    - throw 키워드를 사용하여 예외 발생
   
