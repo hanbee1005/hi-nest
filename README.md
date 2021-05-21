@@ -38,4 +38,9 @@ Learning how to build Enterprise NodeJS applications using NestJS
 - jest: 자바스크립트를 쉽게 테스팅하는 npm 패키지로 .spec.ts 파일을 찾아서 테스트 수행
 - UnitTest: 각각의 함수 단위 테스트
 - e2e: End-to-End로 전체 흐름을 테스트
+- 'npm run test:cov' 명령어로 어느정도 테스트가 진행되었는지 확인 가능
+- 'npm run test:watch' 명령어로 테스트 코드를 작성하면서 테스트 성공 여부를 확인할 수 있음
+
+## E2E TESTING
+- 'npm run test:e2e' 명령어를 통해 test 디렉토리 아래 app.e2e-spec.ts를 테스트 할 수 있음
   
