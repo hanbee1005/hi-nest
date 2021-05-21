@@ -33,4 +33,9 @@ Learning how to build Enterprise NodeJS applications using NestJS
     - forbidNonWhitelisted: true로 설정하면 화이트리스트에 없는 속성 검사 객체를 제거하는 대신 에러를 발생시킵니다.
     - transform: true로 설정하면 dto에 맞는 타입으로 자동 변환합니다.
   + 참고: https://docs.nestjs.com/techniques/validation
+
+## UNIT TESTING
+- jest: 자바스크립트를 쉽게 테스팅하는 npm 패키지로 .spec.ts 파일을 찾아서 테스트 수행
+- UnitTest: 각각의 함수 단위 테스트
+- e2e: End-to-End로 전체 흐름을 테스트
   
