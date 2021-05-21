@@ -26,4 +26,11 @@ Learning how to build Enterprise NodeJS applications using NestJS
   + nest에서 제공하는 예외처리
     - throw NotFoundException();
     - throw 키워드를 사용하여 예외 발생
+- validation
+  + nest에서 제공하는 ValidationPipe를 사용
+  + ValidationPipe 옵션
+    - whilelist: true로 설정하면 유효성 검사 데코레이터를 사용하지 않는 속성의 유효성 검사 객체를 제거합니다.
+    - forbidNonWhitelisted: true로 설정하면 화이트리스트에 없는 속성 검사 객체를 제거하는 대신 에러를 발생시킵니다.
+    - transform: true로 설정하면 dto에 맞는 타입으로 자동 변환합니다.
+  + 참고: https://docs.nestjs.com/techniques/validation
   
