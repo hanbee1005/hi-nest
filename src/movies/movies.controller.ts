@@ -28,7 +28,7 @@ export class MoviesController {
     }
 
     @Delete('/:id')
-    remove(@Param('id') movieId: string): boolean {
+    remove(@Param('id') movieId: string) {
         return this.moviesService.deleteOne(movieId);
     }
 
