@@ -20,3 +20,6 @@ Learning how to build Enterprise NodeJS applications using NestJS
   + query param으로 전달되는 정보는 **@Query('정보명')** 애노테이션을 통해 받을 수 있음
 - service
   + 'nest g s 서비스이름' 명령어를 사용하여 service 생성
+  + controller에서 service를 요청할 때는 생성자 메소드의 파라미터로 요청
+    - ex) constructor(private readonly moviesService: MoviesService)
+  
